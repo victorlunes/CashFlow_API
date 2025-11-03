@@ -12,7 +12,7 @@ public class RegisterExpenseValidatorTests
         //Arrange
         var validator = new RegisterExpenseValidator();
 
-        var request = new RequestExpenseJson
+        var request = new RequestRegisterExpenseJson
         {
             Amount = 100,
             Date = DateTime.Now.AddDays(-1),
