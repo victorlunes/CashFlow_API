@@ -1,0 +1,71 @@
+# ==========================
+# .NET / C# general
+# ==========================
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider
+.vs/
+*.DotSettings.user
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test results
+[Tt]est[Rr]esult*/
+TestResults/
+
+# Logs
+*.log
+*.vsix
+*.app
+*.cache
+*.db
+
+# Rider
+.idea/
+.idea/.idea.*
+*.iml
+
+# Scaffolding
+ScaffoldingReadMe.txt
+
+# MSBuild Binary and Structured Log
+*.binlog
