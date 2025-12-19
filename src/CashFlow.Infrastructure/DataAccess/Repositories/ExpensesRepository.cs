@@ -5,11 +5,11 @@ using Microsoft.Extensions.Logging;
 
 namespace CashFlow.Infrastructure.DataAccess.Repositories;
 
-internal class ExpensesRepository: IExpenseRepository
+internal class ExpensesRepository : IExpenseReadOnlyRepository, IExpensesWriteOnlyRepository
 {
     private readonly CashFlowDbContext _dbContext;
     
-    public ExpensesRepository(CashFlowDbContext dbContext, ILogger<ExpensesRepository> logger)
+    public ExpensesRepository(CashFlowDbContext dbContext)
     {
         _dbContext = dbContext;
     }
