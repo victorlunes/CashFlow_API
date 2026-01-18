@@ -74,5 +74,41 @@ namespace CashFlow.Domain.Reports {
                 return ResourceManager.GetString("TITLE", resourceCulture);
             }
         }
+        
+        public static string CASH {
+            get {
+                return ResourceManager.GetString("CASH", resourceCulture);
+            }
+        }
+        
+        public static string CREDIT_CARD {
+            get {
+                return ResourceManager.GetString("CREDIT_CARD", resourceCulture);
+            }
+        }
+        
+        public static string DEBIT_CARD {
+            get {
+                return ResourceManager.GetString("DEBIT_CARD", resourceCulture);
+            }
+        }
+        
+        public static string ELETRONIC_TRANSFER {
+            get {
+                return ResourceManager.GetString("ELETRONIC_TRANSFER", resourceCulture);
+            }
+        }
+        
+        public static string EXPENSES_FOR {
+            get {
+                return ResourceManager.GetString("EXPENSES_FOR", resourceCulture);
+            }
+        }
+        
+        public static string TOTAL_SPENT_IN {
+            get {
+                return ResourceManager.GetString("TOTAL_SPENT_IN", resourceCulture);
+            }
+        }
     }
 }
