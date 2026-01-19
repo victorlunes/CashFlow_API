@@ -13,7 +13,7 @@
         <AutoGen>True</AutoGen>
         <DependentUpon>ResourceReportGenerationMessages.resx</DependentUpon>
       </Compile>
-      <Compile Update="Enums\ResourcePaymentType.Designer.cs">
+      <Compile Update="Enums\PaymentType\ResourcePaymentType.Designer.cs">
         <DesignTime>True</DesignTime>
         <AutoGen>True</AutoGen>
         <DependentUpon>ResourcePaymentType.resx</DependentUpon>
@@ -25,7 +25,7 @@
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>ResourceReportGenerationMessages.Designer.cs</LastGenOutput>
       </EmbeddedResource>
-      <EmbeddedResource Update="Enums\ResourcePaymentType.resx">
+      <EmbeddedResource Update="Enums\PaymentType\ResourcePaymentType.resx">
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>ResourcePaymentType.Designer.cs</LastGenOutput>
       </EmbeddedResource>
