@@ -14,7 +14,7 @@ public class UserController: ControllerBase
     [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status400BadRequest )]
     public async Task<IActionResult> Register([FromServices] IRegisterUserUseCase useCase, [FromBody] RequestRegisterUseJson request)
     {
-        var response = useCase.Execute(request);
+        var response = await useCase.Execute(request);
         
         return Created(string.Empty, response);
     }
